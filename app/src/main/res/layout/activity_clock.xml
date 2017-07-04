@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0E68C"
+    tools:context="com.example.nokukhanya.quizapp.clock">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/imageView2"
+              android:layout_width="110dp"
+              android:layout_height="123dp"
+              android:src="@drawable/time"/>
+
+              <TextView
+                  android:id="@+id/textView18"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:fontFamily="cursive"
+                  android:text="WHAT TIME IS IT?"
+                  android:textAlignment="center"
+                  android:textColor="#6495ED"
+                  android:textSize="20sp"/>
+
+              <ImageView
+              android:id="@+id/imageView9"
+              android:layout_width="110dp"
+              android:layout_height="123dp"
+              android:src="@drawable/time"/>
+          </LinearLayout>
+
+
+
+          <TextView
+              android:id="@+id/textView01"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="TextView"
+              android:textColor="#DC143C"/>
+
+          <RadioGroup
+              android:id="@+id/grouOnee"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1">
+
+              <RadioButton
+                  android:id="@+id/rad01"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="00:00" />
+
+              <RadioButton
+                  android:id="@+id/rad02"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="12:00" />
+
+          </RadioGroup>
+
+          <TextView
+              android:id="@+id/textView02"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="TextView"
+              android:textColor="#DC143C"/>
+
+          <RadioGroup
+              android:id="@+id/grouptwoo"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1">
+
+              <RadioButton
+                  android:id="@+id/rad04"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="00:00" />
+
+              <RadioButton
+                  android:id="@+id/rad05"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="12:00" />
+          </RadioGroup>
+
+          <TextView
+              android:id="@+id/textView03"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="TextView"
+              android:textColor="#DC143C"/>
+
+          <RadioGroup
+              android:id="@+id/groupThreee"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1">
+
+              <RadioButton
+                  android:id="@+id/rad06"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="12:30" />
+
+              <RadioButton
+                  android:id="@+id/rad07"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="00:30" />
+          </RadioGroup>
+
+          <TextView
+              android:id="@+id/textView04"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="TextView"
+              android:textColor="#DC143C"/>
+
+          <RadioGroup
+              android:id="@+id/groupFourr"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1">
+
+              <RadioButton
+                  android:id="@+id/rad08"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="01:00" />
+
+              <RadioButton
+                  android:id="@+id/rad09"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="13:00" />
+          </RadioGroup>
+
+          <TextView
+              android:id="@+id/textView05"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="TextView"
+              android:textColor="#DC143C" />
+
+          <RadioGroup
+              android:id="@+id/groupFivee"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1">
+
+              <RadioButton
+                  android:id="@+id/rad010"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="13:00" />
+
+              <RadioButton
+                  android:id="@+id/rad011"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="01:00" />
+          </RadioGroup>
+
+          <TextView
+              android:id="@+id/textView06"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="2"
+              android:text="TextView"
+              android:textColor="#DC143C"/>
+
+          <RadioGroup
+              android:id="@+id/groupSixx"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="2">
+
+              <RadioButton
+                  android:id="@+id/rad012"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="04:30"/>
+
+              <RadioButton
+                  android:id="@+id/rad013"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="16:30"/>
+          </RadioGroup>
+
+          <TextView
+              android:id="@+id/textView07"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="2"
+              android:text=""
+              android:textColor="#DC143C"/>
+
+          <RadioGroup
+              android:id="@+id/groupSevenn"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="2">
+
+              <RadioButton
+                  android:id="@+id/rad014"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="15:05" />
+
+              <RadioButton
+                  android:id="@+id/rad015"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="03:05" />
+          </RadioGroup>
+
+          <TextView
+              android:id="@+id/textView08"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="2"
+              android:text="TextView"
+              android:textColor="#DC143C"/>
+
+          <RadioGroup
+              android:id="@+id/groupEightt"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="2">
+
+              <RadioButton
+                  android:id="@+id/rad016"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="06:15"/>
+
+              <RadioButton
+                  android:id="@+id/rad017"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="18:15"/>
+          </RadioGroup>
+
+          <TextView
+              android:id="@+id/textView09"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="2"
+              android:text="TextView"
+              android:textColor="#DC143C"/>
+
+          <RadioGroup
+              android:id="@+id/groupNinee"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="2">
+
+              <RadioButton
+                  android:id="@+id/rad018"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="07:45" />
+
+              <RadioButton
+                  android:id="@+id/rad019"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="19:45"/>
+          </RadioGroup>
+
+          <TextView
+              android:id="@+id/textView010"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="2"
+              android:text="TextView"
+              android:textColor="#DC143C"/>
+
+          <RadioGroup
+              android:id="@+id/groupTenn"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="2">
+
+              <RadioButton
+                  android:id="@+id/rad020"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="20:50"/>
+
+              <RadioButton
+                  android:id="@+id/rad021"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:text="08:50"/>
+          </RadioGroup>
+
+          <Button
+              android:id="@+id/btnWatchScore"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:background="#FF0000"
+              android:text="SCORE" />
+
+          <Button
+              android:id="@+id/btnClockSolutions"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffffff"
+              android:text="SOLUTIONS"
+              android:visibility="invisible" />
+
+
+      </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

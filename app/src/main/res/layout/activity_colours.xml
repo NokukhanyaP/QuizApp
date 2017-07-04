@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BFFF"
+    tools:context="com.example.nokukhanya.quizapp.Colours"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Let's Play With Colours"
+                android:fontFamily="cursive"
+                android:textAlignment="center"
+                android:textSize="30sp"/>
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textColor="#FF1493"/>
+
+            <RadioGroup
+                android:id="@+id/groupOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/Rad1"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:text="White, Red and Yellow"/>
+
+                <RadioButton
+                    android:id="@+id/Rad2"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:text="White,Red and Blue"/>
+
+                <RadioButton
+                    android:id="@+id/Rad3"
+                    android:layout_width="195dp"
+                    android:layout_height="wrap_content"
+                    android:text="Blue,Yellow and Red"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textColor="#FF1493"/>
+
+            <RadioGroup
+                android:id="@+id/groupTwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/rad4"
+                    android:layout_width="132dp"
+                    android:layout_height="wrap_content"
+                    android:text="Red and Blue"/>
+
+                <RadioButton
+                    android:id="@+id/rad5"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Yellow and White"/>
+
+                <RadioButton
+                    android:id="@+id/rad6"
+                    android:layout_width="171dp"
+                    android:layout_height="wrap_content"
+                    android:text="Blue and Yellow"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#FF1493"/>
+
+
+
+            <RadioGroup
+                android:id="@+id/groupThree"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rad7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Red and Yellow"/>
+
+                <RadioButton
+                    android:id="@+id/rad8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.61"
+                    android:text="Red and White"/>
+
+                <RadioButton
+                    android:id="@+id/rad9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Blue and Yellow"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#FF1493"/>
+
+            <RadioGroup
+                android:id="@+id/groupFour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rad10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Blue and Yellow" />
+
+                <RadioButton
+                    android:id="@+id/rad11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="White and Blue" />
+
+                <RadioButton
+                    android:id="@+id/rad12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Red and Blue" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="#FF1493" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/groupFive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rad13"
+                    android:layout_width="227dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Orange,Red and Violet"/>
+
+                <RadioButton
+                    android:id="@+id/rad14"
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Green,Orange and Violet"/>
+
+                <RadioButton
+                    android:id="@+id/rad15"
+                    android:layout_width="195dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Red,Yellow and Violet"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/buttonScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SCORE"
+                android:textSize="16sp"
+                android:background="#FF1493"
+                android:textColor="#00BFFF"/>
+
+            <Button
+                android:id="@+id/BtnColourSolutins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00BFFF"
+                android:text="SOLUTIONS"
+                android:textColor="#FF1493"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
